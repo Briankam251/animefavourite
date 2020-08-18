@@ -1,0 +1,62 @@
+[29.917955399] 2020-08-17 17:33:04,130 - INFO - launcher: Starting sanity checks
+[29.917955399] 2020-08-17 17:33:04,130 - INFO - launcher: Checking for Python 3.5+
+[29.917955399] 2020-08-17 17:33:04,130 - INFO - launcher: Checking console encoding
+[30.918121338] 2020-08-17 17:33:04,131 - INFO - launcher: Setting console encoding to UTF-8
+[30.918121338] 2020-08-17 17:33:04,131 - INFO - launcher: Ensuring we're in the right environment
+[31.911849976] 2020-08-17 17:33:04,132 - INFO - launcher: Adding local bins/ folder to path
+[436.845779419] 2020-08-17 17:33:04,537 - INFO - launcher: Required checks passed.
+[437.857151031] 2020-08-17 17:33:04,538 - INFO - launcher: Optional checks passed.
+[437.857151031] 2020-08-17 17:33:04,538 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.1356656551361084] 2020-08-17 17:33:05,235 - INFO - musicbot.config | In config.py::MainThread(52652), line 132 in run_checks: Using i18n: config/i18n/zh_TW.json
+[1.1356656551361084] 2020-08-17 17:33:05,235 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 225 in _setup_logging: Set logging level to INFO
+[1.1376607418060303] 2020-08-17 17:33:05,237 - DEBUG - musicbot.json | In json.py::MainThread(52652), line 8 in __init__: Init JSON obj with config/i18n/zh_TW.json
+[1.1556124687194824] 2020-08-17 17:33:05,255 - INFO - musicbot.bot | In bot.py::MainThread(52652), line 90 in __init__: Starting MusicBot release-260819-5-gc87dc05
+[1.1556124687194824] 2020-08-17 17:33:05,255 - WARNING - musicbot.bot | In bot.py::MainThread(52652), line 93 in __init__: Autoplaylist is empty, disabling.
+[5.4813101291656494] 2020-08-17 17:33:09,581 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 951 in on_ready: Connection established, ready to go.
+[5.4813101291656494] 2020-08-17 17:33:09,581 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 342 in _cache_app_info: Caching app info
+[5.7546539306640625] 2020-08-17 17:33:09,854 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[5.7556059360504150] 2020-08-17 17:33:09,855 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 789 in _scheck_server_permissions: Checking server permissions
+[5.7556059360504150] 2020-08-17 17:33:09,855 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[5.7556059360504150] 2020-08-17 17:33:09,855 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 797 in _scheck_configs: Validating config
+[5.7556059360504150] 2020-08-17 17:33:09,855 - DEBUG - musicbot.config | In config.py::MainThread(52652), line 236 in async_validate: Validating options...
+[5.7556059360504150] 2020-08-17 17:33:09,855 - DEBUG - musicbot.config | In config.py::MainThread(52652), line 250 in async_validate: Acquired owner id via API
+[5.7556059360504150] 2020-08-17 17:33:09,855 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 800 in _scheck_configs: Validating permissions config
+[5.7556059360504150] 2020-08-17 17:33:09,855 - DEBUG - musicbot.permissions | In permissions.py::MainThread(52652), line 94 in async_validate: Validating permissions...
+[5.7556059360504150] 2020-08-17 17:33:09,855 - DEBUG - musicbot.permissions | In permissions.py::MainThread(52652), line 98 in async_validate: Fixing automatic owner group
+[5.7556059360504150] 2020-08-17 17:33:09,855 - INFO - musicbot.bot | In bot.py::MainThread(52652), line 968 in on_ready: Connected: 717402545739268186/AnimeFavourite#1688
+[5.7566030025482178] 2020-08-17 17:33:09,856 - INFO - musicbot.bot | In bot.py::MainThread(52652), line 976 in on_ready: Owner:     263231852632997888/Briankam#2964
+
+[5.7576317787170410] 2020-08-17 17:33:09,857 - INFO - musicbot.bot | In bot.py::MainThread(52652), line 979 in on_ready: Guild List:
+[5.7576317787170410] 2020-08-17 17:33:09,857 - INFO - musicbot.bot | In bot.py::MainThread(52652), line 983 in on_ready:  - Meowguys自由茶會
+[5.7585976123809814] 2020-08-17 17:33:09,858 - INFO - musicbot.bot | In bot.py::MainThread(52652), line 1039 in on_ready: Not bound to any text channels
+[5.7585976123809814] 2020-08-17 17:33:09,858 - INFO - musicbot.bot | In bot.py::MainThread(52652), line 1065 in on_ready: Not autojoining any voice channels
+[5.7585976123809814] 2020-08-17 17:33:09,858 - INFO - musicbot.bot | In bot.py::MainThread(52652), line 266 in _join_startup_channels: Found resumable voice channel Meowguys自由茶會/HIHI
+[5.7585976123809814] 2020-08-17 17:33:09,858 - INFO - musicbot.bot | In bot.py::MainThread(52652), line 272 in _join_startup_channels: Found owner in "HIHI"
+[5.7596187591552734] 2020-08-17 17:33:09,859 - INFO - musicbot.bot | In bot.py::MainThread(52652), line 281 in _join_startup_channels: Attempting to join Meowguys自由茶會/HIHI
+[8.2441153526306152] 2020-08-17 17:33:12,344 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 733 in deserialize_queue: Deserializing queue for 515520029421469696
+[8.3318798542022705] 2020-08-17 17:33:12,432 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 425 in get_player: Created player via deserialization for guild 515520029421469696 with 0 entries
+[8.3328795433044434] 2020-08-17 17:33:12,433 - INFO - musicbot.bot | In bot.py::MainThread(52652), line 297 in _join_startup_channels: Joined Meowguys自由茶會/HIHI
+[8.3338868618011475] 2020-08-17 17:33:12,434 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 532 in on_player_stop: Running on_player_stop
+[27.7891483306884766] 2020-08-17 17:33:31,889 - INFO - musicbot.bot | In bot.py::MainThread(52652), line 2706 in on_message: 263231852632997888/Briankam#2964: !summon
+[30.2423381805419922] 2020-08-17 17:33:34,342 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 733 in deserialize_queue: Deserializing queue for 515520029421469696
+[30.2553024291992188] 2020-08-17 17:33:34,355 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 425 in get_player: Created player via deserialization for guild 515520029421469696 with 0 entries
+[30.2553024291992188] 2020-08-17 17:33:34,355 - INFO - musicbot.bot | In bot.py::MainThread(52652), line 1935 in cmd_summon: Joining Meowguys自由茶會/HIHI
+[30.2572979927062988] 2020-08-17 17:33:34,357 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 532 in on_player_stop: Running on_player_stop
+[827.4836142063140869] 2020-08-17 17:46:51,583 - INFO - musicbot.bot | In bot.py::MainThread(52652), line 2706 in on_message: 263231852632997888/Briankam#2964: !p Hailee Steinfeld - Rock Bottom ft. DNCE (Official Video)
+[830.3732724189758301] 2020-08-17 17:46:54,473 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Hailee Steinfeld - Rock Bottom ft. DNCE (Official Video)', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Hailee Steinfeld - Rock Bottom ft. DNCE (Official Video)', 'webpage_url_basename': 'Hailee Steinfeld - Rock Bottom ft. DNCE (Official Video)', 'extractor_key': 'Generic'}
+[832.8292405605316162] 2020-08-17 17:46:56,929 - DEBUG - musicbot.entry | In entry.py::MainThread(52652), line 56 in get_ready_future: Created future for None
+[832.8312315940856934] 2020-08-17 17:46:56,931 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 624 in on_player_entry_added: Running on_player_entry_added
+[832.8312315940856934] 2020-08-17 17:46:56,931 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 709 in serialize_queue: Serializing queue for 515520029421469696
+[832.8322284221649170] 2020-08-17 17:46:56,932 - INFO - musicbot.entry | In entry.py::MainThread(52652), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=liwCttfeJ7E
+[834.1113193035125732] 2020-08-17 17:46:58,211 - INFO - musicbot.entry | In entry.py::MainThread(52652), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=liwCttfeJ7E
+[834.8258845806121826] 2020-08-17 17:46:58,926 - DEBUG - musicbot.entry | In entry.py::MainThread(52652), line 56 in get_ready_future: Created future for audio_cache\youtube-liwCttfeJ7E-Hailee_Steinfeld_-_Rock_Bottom_ft._DNCE_Official_Video.webm
+[834.8258845806121826] 2020-08-17 17:46:58,926 - FFMPEG - musicbot.player | In player.py::MainThread(52652), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-liwCttfeJ7E-Hailee_Steinfeld_-_Rock_Bottom_ft._DNCE_Official_Video.webm
+[836.5441148281097412] 2020-08-17 17:47:00,644 - DEBUG - musicbot.player | In player.py::MainThread(52652), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x0000019772E03F60> using <discord.voice_client.VoiceClient object at 0x0000019772A559E8>
+[836.5450778007507324] 2020-08-17 17:47:00,645 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 460 in on_player_play: Running on_player_play
+[836.5460755825042725] 2020-08-17 17:47:00,646 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 709 in serialize_queue: Serializing queue for 515520029421469696
+[1061.4370255470275879] 2020-08-17 17:50:45,537 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[1062.7875800132751465] 2020-08-17 17:50:46,887 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 709 in serialize_queue: Serializing queue for 515520029421469696
+[1062.7885642051696777] 2020-08-17 17:50:46,888 - DEBUG - musicbot.bot | In bot.py::MainThread(52652), line 532 in on_player_stop: Running on_player_stop

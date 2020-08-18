@@ -1,0 +1,73 @@
+[59.847116470] 2020-08-17 17:56:56,337 - INFO - launcher: Starting sanity checks
+[59.847116470] 2020-08-17 17:56:56,337 - INFO - launcher: Checking for Python 3.5+
+[60.837030411] 2020-08-17 17:56:56,338 - INFO - launcher: Checking console encoding
+[61.835050583] 2020-08-17 17:56:56,339 - INFO - launcher: Setting console encoding to UTF-8
+[61.835050583] 2020-08-17 17:56:56,339 - INFO - launcher: Ensuring we're in the right environment
+[64.829826355] 2020-08-17 17:56:56,342 - INFO - launcher: Adding local bins/ folder to path
+[1034.447908401] 2020-08-17 17:56:57,311 - INFO - launcher: Required checks passed.
+[1035.445690155] 2020-08-17 17:56:57,312 - INFO - launcher: Optional checks passed.
+[1036.443233490] 2020-08-17 17:56:57,313 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.8188133239746094] 2020-08-17 17:56:59,096 - INFO - musicbot.config | In config.py::MainThread(18472), line 132 in run_checks: Using i18n: config/i18n/zh_TW.json
+[2.8188133239746094] 2020-08-17 17:56:59,096 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 225 in _setup_logging: Set logging level to INFO
+[2.8297832012176514] 2020-08-17 17:56:59,107 - DEBUG - musicbot.json | In json.py::MainThread(18472), line 8 in __init__: Init JSON obj with config/i18n/zh_TW.json
+[2.8906214237213135] 2020-08-17 17:56:59,167 - INFO - musicbot.bot | In bot.py::MainThread(18472), line 90 in __init__: Starting MusicBot release-260819-5-gc87dc05
+[2.8916177749633789] 2020-08-17 17:56:59,168 - WARNING - musicbot.bot | In bot.py::MainThread(18472), line 93 in __init__: Autoplaylist is empty, disabling.
+[7.3401091098785400] 2020-08-17 17:57:03,617 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 951 in on_ready: Connection established, ready to go.
+[7.3401091098785400] 2020-08-17 17:57:03,617 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 342 in _cache_app_info: Caching app info
+[7.6213583946228027] 2020-08-17 17:57:03,898 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[7.6223549842834473] 2020-08-17 17:57:03,899 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 789 in _scheck_server_permissions: Checking server permissions
+[7.6223549842834473] 2020-08-17 17:57:03,899 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[7.6233568191528320] 2020-08-17 17:57:03,900 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 797 in _scheck_configs: Validating config
+[7.6233568191528320] 2020-08-17 17:57:03,900 - DEBUG - musicbot.config | In config.py::MainThread(18472), line 236 in async_validate: Validating options...
+[7.6233568191528320] 2020-08-17 17:57:03,900 - DEBUG - musicbot.config | In config.py::MainThread(18472), line 250 in async_validate: Acquired owner id via API
+[7.6233568191528320] 2020-08-17 17:57:03,900 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 800 in _scheck_configs: Validating permissions config
+[7.6233568191528320] 2020-08-17 17:57:03,900 - DEBUG - musicbot.permissions | In permissions.py::MainThread(18472), line 94 in async_validate: Validating permissions...
+[7.6233568191528320] 2020-08-17 17:57:03,900 - DEBUG - musicbot.permissions | In permissions.py::MainThread(18472), line 98 in async_validate: Fixing automatic owner group
+[7.6233568191528320] 2020-08-17 17:57:03,900 - INFO - musicbot.bot | In bot.py::MainThread(18472), line 968 in on_ready: Connected: 717402545739268186/AnimeFavourite#1688
+[7.6243543624877930] 2020-08-17 17:57:03,901 - INFO - musicbot.bot | In bot.py::MainThread(18472), line 976 in on_ready: Owner:     263231852632997888/Briankam#2964
+
+[7.6253492832183838] 2020-08-17 17:57:03,902 - INFO - musicbot.bot | In bot.py::MainThread(18472), line 979 in on_ready: Guild List:
+[7.6253492832183838] 2020-08-17 17:57:03,902 - INFO - musicbot.bot | In bot.py::MainThread(18472), line 983 in on_ready:  - Meowguys自由茶會
+[7.6263446807861328] 2020-08-17 17:57:03,903 - INFO - musicbot.bot | In bot.py::MainThread(18472), line 1039 in on_ready: Not bound to any text channels
+[7.6263446807861328] 2020-08-17 17:57:03,903 - INFO - musicbot.bot | In bot.py::MainThread(18472), line 1065 in on_ready: Not autojoining any voice channels
+[7.6273415088653564] 2020-08-17 17:57:03,904 - INFO - musicbot.bot | In bot.py::MainThread(18472), line 272 in _join_startup_channels: Found owner in "點歌區"
+[7.6273415088653564] 2020-08-17 17:57:03,904 - INFO - musicbot.bot | In bot.py::MainThread(18472), line 281 in _join_startup_channels: Attempting to join Meowguys自由茶會/點歌區
+[10.0748829841613770] 2020-08-17 17:57:06,352 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 733 in deserialize_queue: Deserializing queue for 515520029421469696
+[10.3461573123931885] 2020-08-17 17:57:06,623 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 425 in get_player: Created player via deserialization for guild 515520029421469696 with 0 entries
+[10.3461573123931885] 2020-08-17 17:57:06,623 - INFO - musicbot.bot | In bot.py::MainThread(18472), line 297 in _join_startup_channels: Joined Meowguys自由茶會/點歌區
+[10.3491477966308594] 2020-08-17 17:57:06,626 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 532 in on_player_stop: Running on_player_stop
+[60.1804256439208984] 2020-08-17 17:57:56,457 - INFO - musicbot.bot | In bot.py::MainThread(18472), line 2706 in on_message: 263231852632997888/Briankam#2964: !p 沒錯，這真的是男孩子，內地兩聲類歌手女聲翻唱12 fan club，百度偽聲吧吧歌
+[62.5419101715087891] 2020-08-17 17:57:58,819 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:沒錯，這真的是男孩子，內地兩聲類歌手女聲翻唱12 fan club，百度偽聲吧吧歌', 'ie_key': None, 'extractor': 'generic', 'webpage_url': '沒錯，這真的是男孩子，內地兩聲類歌手女聲翻唱12 fan club，百度偽聲吧吧歌', 'webpage_url_basename': '沒錯，這真的是男孩子，內地兩聲類歌手女聲翻唱12 fan club，百度偽聲吧吧歌', 'extractor_key': 'Generic'}
+[64.2938992977142334] 2020-08-17 17:58:00,571 - DEBUG - musicbot.entry | In entry.py::MainThread(18472), line 56 in get_ready_future: Created future for None
+[64.2968866825103760] 2020-08-17 17:58:00,574 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 624 in on_player_entry_added: Running on_player_entry_added
+[64.2968866825103760] 2020-08-17 17:58:00,574 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 709 in serialize_queue: Serializing queue for 515520029421469696
+[64.3068590164184570] 2020-08-17 17:58:00,584 - INFO - musicbot.entry | In entry.py::MainThread(18472), line 207 in _download: Download cached: https://www.youtube.com/watch?v=6mqB505Zeos
+[66.2898750305175781] 2020-08-17 17:58:02,567 - DEBUG - musicbot.entry | In entry.py::MainThread(18472), line 56 in get_ready_future: Created future for audio_cache\youtube-6mqB505Zeos-12_fan_club.webm
+[66.2898750305175781] 2020-08-17 17:58:02,567 - FFMPEG - musicbot.player | In player.py::MainThread(18472), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-6mqB505Zeos-12_fan_club.webm
+[69.2482295036315918] 2020-08-17 17:58:05,525 - DEBUG - musicbot.player | In player.py::MainThread(18472), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x000001CD1299A9B0> using <discord.voice_client.VoiceClient object at 0x000001CD125E9D68>
+[69.2492065429687500] 2020-08-17 17:58:05,526 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 460 in on_player_play: Running on_player_play
+[69.2492065429687500] 2020-08-17 17:58:05,526 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 709 in serialize_queue: Serializing queue for 515520029421469696
+[307.0744299888610840] 2020-08-17 18:02:03,351 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[307.8260331153869629] 2020-08-17 18:02:04,103 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 709 in serialize_queue: Serializing queue for 515520029421469696
+[307.8270072937011719] 2020-08-17 18:02:04,104 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 532 in on_player_stop: Running on_player_stop
+[1504.5474979877471924] 2020-08-17 18:22:00,824 - INFO - musicbot.bot | In bot.py::MainThread(18472), line 2706 in on_message: 263231852632997888/Briankam#2964: !p 于果 - 你最初的【動態歌詞Lyrics】
+[1506.4012646675109863] 2020-08-17 18:22:02,678 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:于果 - 你最初的【動態歌詞Lyrics】', 'ie_key': None, 'extractor': 'generic', 'webpage_url': '于果 - 你最初的【動態歌詞Lyrics】', 'webpage_url_basename': '于果 - 你最初的【動態歌詞Lyrics】', 'extractor_key': 'Generic'}
+[1508.1850309371948242] 2020-08-17 18:22:04,462 - DEBUG - musicbot.entry | In entry.py::MainThread(18472), line 56 in get_ready_future: Created future for None
+[1508.1860270500183105] 2020-08-17 18:22:04,463 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 624 in on_player_entry_added: Running on_player_entry_added
+[1508.1860270500183105] 2020-08-17 18:22:04,463 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 709 in serialize_queue: Serializing queue for 515520029421469696
+[1508.1870260238647461] 2020-08-17 18:22:04,464 - INFO - musicbot.entry | In entry.py::MainThread(18472), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=MLpwbyhxqWs
+[1509.7061493396759033] 2020-08-17 18:22:05,983 - INFO - musicbot.entry | In entry.py::MainThread(18472), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=MLpwbyhxqWs
+[1510.1786215305328369] 2020-08-17 18:22:06,455 - DEBUG - musicbot.entry | In entry.py::MainThread(18472), line 56 in get_ready_future: Created future for audio_cache\youtube-MLpwbyhxqWs-Lyrics.webm
+[1510.1786215305328369] 2020-08-17 18:22:06,455 - FFMPEG - musicbot.player | In player.py::MainThread(18472), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-MLpwbyhxqWs-Lyrics.webm
+[1512.2231264114379883] 2020-08-17 18:22:08,500 - DEBUG - musicbot.player | In player.py::MainThread(18472), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x000001CD1299A550> using <discord.voice_client.VoiceClient object at 0x000001CD125E9D68>
+[1512.2241268157958984] 2020-08-17 18:22:08,501 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 460 in on_player_play: Running on_player_play
+[1512.2251226902008057] 2020-08-17 18:22:08,502 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 709 in serialize_queue: Serializing queue for 515520029421469696
+[1807.2500636577606201] 2020-08-17 18:27:03,527 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[1808.0930209159851074] 2020-08-17 18:27:04,370 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 709 in serialize_queue: Serializing queue for 515520029421469696
+[1808.0940525531768799] 2020-08-17 18:27:04,371 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 532 in on_player_stop: Running on_player_stop
+[4192.7136449813842773] 2020-08-17 19:06:48,991 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 3004 in on_guild_available: Guild "Meowguys自由茶會" has become available.
+[4194.7220268249511719] 2020-08-17 19:06:50,999 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 951 in on_ready: Connection established, ready to go.
+[4194.7230241298675537] 2020-08-17 19:06:51,000 - DEBUG - musicbot.bot | In bot.py::MainThread(18472), line 956 in on_ready: Received additional READY event, may have failed to resume
